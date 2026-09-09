@@ -24,27 +24,27 @@ fun Contact(){
                 text = "Contact",
                 fontSize = 20.sp
             )
-            Row() {
+            Row {
                 Icon(
                     imageVector = Icons.Default.Email,
                     contentDescription = "Email"
                 )
                 Text(
-                    text = "jacksonmatongo4@gmail.com",
+                    text = "example@gmail.com",
                     modifier = Modifier.padding(start = 8.dp)
                 )
             }
-            Row() {
+            Row {
                 Icon(
                     imageVector = Icons.Default.Phone,
                     contentDescription = "Phone"
                 )
                 Text(
-                    text = "+255715777777",
+                    text = "+255700000000",
                     modifier = Modifier.padding(start = 8.dp)
                 )
             }
-            Row() {
+            Row {
                 Icon(
                     imageVector = Icons.Default.LocationOn,
                     contentDescription = "Location"
@@ -60,7 +60,7 @@ fun Contact(){
                     contentDescription = "Website"
                 )
                 Text(
-                    text = "https://www.domentro.com",
+                    text = "https://www.example.com",
                     modifier = Modifier.padding(start = 8.dp)
                 )
             }

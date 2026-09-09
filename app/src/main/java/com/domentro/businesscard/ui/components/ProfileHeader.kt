@@ -44,7 +44,7 @@ fun ProfileHeader(modifier: Modifier = Modifier){
                 .padding(bottom = 8.dp)
         )
         Text(
-            text = "Jackson Dominoes",
+            text = "Jackson Example",
             modifier = Modifier.padding(bottom = 8.dp),
             style = MaterialTheme.typography.headlineMedium,
         )
